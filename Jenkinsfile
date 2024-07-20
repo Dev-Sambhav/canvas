@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Adjust the branch and repository URL as necessary
-                git branch: 'master', url: 'https://github.com/Dev-Sambhav/canvas-editor.git'
+                git branch: 'master', url: 'https://github.com/Dev-Sambhav/canvas.git'
             }
         }
         stage('Install Dependencies') {
